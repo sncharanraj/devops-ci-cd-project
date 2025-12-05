@@ -23,7 +23,7 @@ jobs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.CAR_PAT }}
 
     # ---------------------------
     # Build Docker Image
@@ -47,7 +47,7 @@ jobs:
       with:
         host: ${{ secrets.VM_HOST }}
         username: ${{ secrets.VM_USER }}
-        key: ${{ secrets.CAR_PAT }}
+        key: ${{ secrets.VM_SSH_KEY }}
         script: |
           docker pull ghcr.io/sncharanraj/devops-app:latest
           docker stop devops-app || true
