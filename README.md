@@ -39,10 +39,15 @@ http://20.63.89.0:5000/
 ## 📦 Project Structure
 
 .
+
 ├── app.py # Flask application
+
 ├── Dockerfile # Image definition
+
 └── .github/
+
 └── workflows/
+
 └── deploy.yml # CI/CD pipeline
 
 ---
