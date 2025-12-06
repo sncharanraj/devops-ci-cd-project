@@ -1,4 +1,3 @@
-```markdown
 # DevOps CI/CD Pipeline with GitHub Actions, Docker, GHCR, and Azure VM 
 
 This project demonstrates an end-to-end CI/CD pipeline for deploying a Dockerized Flask application to an Azure Virtual Machine using GitHub Actions and GitHub Container Registry (GHCR).  
@@ -122,5 +121,5 @@ After successful CI/CD execution, the Flask application becomes accessible at:
 ## 📘 Conclusion
 
 This project demonstrates end-to-end DevOps practices including CI/CD automation, Docker containerization, cloud deployment, registry management, and real debugging experience.
-```
+
 
