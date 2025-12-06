@@ -38,17 +38,13 @@ http://20.63.89.0:5000/
 
 ## 📦 Project Structure
 
-.
-
+devops-ci-cd-project/
 ├── app.py # Flask application
-
-├── Dockerfile # Image definition
-
+├── Dockerfile # Docker image definition
+├── requirements.txt # Python dependencies (if used)
 └── .github/
-
 └── workflows/
-
-└── deploy.yml # CI/CD pipeline
+└── deploy.yml # CI/CD pipeline configuration
 
 ---
 
