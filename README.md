@@ -37,6 +37,7 @@ http://20.63.89.0:5000/
 ---
 
 ## 📦 Project Structure
+---
 
 devops-ci-cd-project/
 ├── app.py                # Flask application
